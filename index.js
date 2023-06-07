@@ -4,6 +4,9 @@ import { promtUser } from "./promt.js";
 
 
 const menu = async() =>{
+    console.log('°°°°°°°°°°°°°°°°')
+    console.log('     Tp N°1     ')   
+    console.log('°°°°°°°°°°°°°°°°')
     const opciones = await inquirer.prompt([
         {
             type: 'list',
